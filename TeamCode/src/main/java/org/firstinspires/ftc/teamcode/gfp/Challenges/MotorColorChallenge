@@ -1,0 +1,6 @@
+Motor color challenge
+1. Make a motor drive to the amount of red you sense.
+2. Stop the motor if you have something blue in front of the sensor.
+Bonus:
+1.Drive the servo if there is something purple in front of the sensor
+ (blue and red)
