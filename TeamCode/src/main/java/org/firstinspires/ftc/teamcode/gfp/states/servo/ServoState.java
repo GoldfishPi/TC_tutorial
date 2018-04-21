@@ -15,7 +15,7 @@ public class ServoState extends State {
 
     public ServoState(Engine engine) {
         this.engine = engine;
-        this.position = 0.0;
+        this.position = 0.0;//
     }
     public ServoState(Engine engine,double position) {
         this.engine = engine;
