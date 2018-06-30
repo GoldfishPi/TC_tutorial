@@ -22,12 +22,11 @@ public class TCColorSensor extends State {
     }
     @Override
     public void exec() {
-        if(colorSensor.red() > value) {
-            engine.telemetry.addData("Finished",true);
-            setFinished(true);
-        }else{
-            engine.telemetry.addData("Color data",colorSensor.red());
-        }
-        engine.telemetry.update();
+        value = colorSensor.blue();
+        setFinished(true);
+    }
+
+    public double getValue() {
+        return value;
     }
 }
